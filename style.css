@@ -52,3 +52,15 @@ body {
     justify-content: center;
     align-items: baseline;
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .choices-box {
+        flex-direction: column;
+        margin-left: 5rem;
+    }
+
+    #opponent-score {
+        padding: 5px 20px;
+    }
+}
