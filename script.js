@@ -1,4 +1,6 @@
 
+
+
 var you;
 var yourScore = 0;
 var opponent;
@@ -60,3 +62,8 @@ function selectChoice() {
     document.getElementById("your-score").innerText = `yourScore: ${yourScore}`;
     document.getElementById("opponent-score").innerText = `oppScore: ${opponentScore}`;
 }
+
+
+
+
+
