@@ -1,20 +1,20 @@
 body {
     font-family: cursive;
     text-align: center;
-    background: rgb(250, 189, 216);
+    background: rgb(196, 77, 131);
     background: radial-gradient(circle, rgba(250, 189, 216, 1) 29%, rgba(148, 187, 233, 1) 74%);
 }
 
 #opponent-choice {
-    width: 240px;
-    height: 240px;
-    margin-top: 10px;
+    width: 180px;
+    height: 180px;
+    margin-top: 1px;
 }
 
 #your-choice {
-    width: 240px;
-    height: 240px;
-    margin-top: 10px;
+    width: 180px;
+    height: 180px;
+    margin-top: 5px;
 }
 
 #choices {
