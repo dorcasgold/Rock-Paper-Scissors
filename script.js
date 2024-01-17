@@ -57,6 +57,6 @@ function selectChoice() {
         }
     }
 
-    document.getElementById("your-score").innerText = yourScore;
-    document.getElementById("opponent-score").innerText = opponentScore;
+    document.getElementById("your-score").innerText = `yourScore: ${yourScore}`;
+    document.getElementById("opponent-score").innerText = `oppScore: ${opponentScore}`;
 }
